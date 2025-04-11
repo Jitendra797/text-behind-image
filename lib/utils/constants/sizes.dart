@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class KSizes {
   //Padding and margin Sizes
   static const double xs = 4.0;
@@ -16,6 +18,12 @@ class KSizes {
   static const double fontSizeSm = 14.0;
   static const double fontSizeMd = 16.0;
   static const double fontSizeLg = 18.0;
+
+  //Font weights
+  static const FontWeight fontWeightSm = FontWeight.w400;
+  static const FontWeight fontWeightMd = FontWeight.w500;
+  static const FontWeight fontWeightLg = FontWeight.w600;
+  static const FontWeight fontWeightXl = FontWeight.w700;
 
   //Button sizes
   static const double bottonHeight = 18.0;
